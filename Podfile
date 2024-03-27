@@ -7,7 +7,8 @@ target 'RecuitmentTest' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxGesture'
-  pod 'RxDataSources'
+  pod 'Swinject'
+  pod 'IQKeyboardManagerSwift'
   # Pods for RecuitmentTest
 
   target 'RecuitmentTestTests' do

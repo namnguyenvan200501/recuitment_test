@@ -1,42 +1,40 @@
 PODS:
-  - Differentiator (5.0.0)
+  - IQKeyboardManagerSwift (7.0.2)
   - RxCocoa (6.6.0):
     - RxRelay (= 6.6.0)
     - RxSwift (= 6.6.0)
-  - RxDataSources (5.0.0):
-    - Differentiator (~> 5.0)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
   - RxGesture (4.0.4):
     - RxCocoa (~> 6.0)
     - RxSwift (~> 6.0)
   - RxRelay (6.6.0):
     - RxSwift (= 6.6.0)
   - RxSwift (6.6.0)
+  - Swinject (2.8.4)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
   - RxCocoa
-  - RxDataSources
   - RxGesture
   - RxSwift
+  - Swinject
 
 SPEC REPOS:
   trunk:
-    - Differentiator
+    - IQKeyboardManagerSwift
     - RxCocoa
-    - RxDataSources
     - RxGesture
     - RxRelay
     - RxSwift
+    - Swinject
 
 SPEC CHECKSUMS:
-  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  IQKeyboardManagerSwift: d338c11a896e9f29603443700c4567e32f830c22
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
-  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
   RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  Swinject: 6ba81f58fd769c9fd4b8ceced9e25a9cb137cb3c
 
-PODFILE CHECKSUM: 3b6231b63b84c62c307675ae8f36b666657ca165
+PODFILE CHECKSUM: 1ad49195db30c94baa9413b464dabc17261d7994
 
 COCOAPODS: 1.15.2
